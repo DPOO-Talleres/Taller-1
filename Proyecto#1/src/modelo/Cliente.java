@@ -2,13 +2,15 @@ package modelo;
 
 public class Cliente {
 
-	private String Orden="";
+	private String Nombre="";
 	
-	private String Orden="";
+	public Cliente (String pNombre)
+	{
+		Nombre=pNombre;
+	}
 	
-	private Boolean Orden="";
-	
-	private int Orden="";
-	
-	private String Orden="";
+	public String getNombreCliente()
+	{
+		return Nombre;
+	}
 }
